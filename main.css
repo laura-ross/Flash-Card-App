@@ -5,12 +5,15 @@ header {
   align-items: center;
   padding: 3rem; }
 
-.header-content {
-  width: 90%;
+.heading h1 {
   text-align: center; }
 
+.header-content {
+  width: 90%;
+  text-align: left; }
+
 .form {
-  margin: 2rem auto;
+  margin: 4rem auto;
   max-width: 450px; }
 
 .main-wrapper {

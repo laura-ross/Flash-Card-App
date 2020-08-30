@@ -13,12 +13,20 @@
 <div class="main-wrapper">
   <header>
     <div class="header-content">
-      <h1 class="text-white heading">Sticky Notes</h1>
+      <div class="heading">
+        <h1 class="text-white">Sticky Notes</h1>
+      </div>
       <form class="form">
         <fieldset>
-          <input type="text" class="form-control flex-left m-2 title" placeholder="Add a title">
-          <textarea class="form-control m-2 body" placeholder="Write a note..." rows="6" type="text"></textarea>
-          <button class="btn btn-success btn-block m-2 add-note-btn" type="">Add Note</button>
+          <div class="form-group mb-3">
+            <label class="text-white">Title</label>
+            <input type="text" class="form-control flex-left title">
+          </div>
+          <div class="form-group mb-3">
+            <label class="text-white">Write a note...</label>
+            <textarea class="form-control body" rows="6" type="text"></textarea>
+          </div>
+          <button class="btn btn-success btn-block add-note-btn" type="">Add Note</button>
         </fieldset>
       </form>
     </div>
