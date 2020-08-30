@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css" integrity="sha384-RxqHG2ilm4r6aFRpGmBbGTjsqwfqHOKy1ArsMhHusnRO47jcGqpIQqlQK/kmGy9R" crossorigin="anonymous">
+  <link rel="stylesheet" href="./main.css">
+  <title>Sticky Notes App</title>
+</head>
+<body class="bg-dark">
+<div class="main-wrapper">
+  <header>
+    <div class="header-content">
+      <h1 class="text-white heading">Sticky Notes</h1>
+      <form class="form">
+        <fieldset>
+          <input type="text" class="form-control flex-left m-2 title" placeholder="Add a title">
+          <textarea class="form-control m-2 body" placeholder="Write a note..." rows="6" type="text"></textarea>
+          <button class="btn btn-success btn-block m-2 add-note-btn" type="">Add Note</button>
+        </fieldset>
+      </form>
+    </div>
+  </header>
+
+<section class="notes-wrapper"></section>
+</div>
+
+
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
